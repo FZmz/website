@@ -91,7 +91,7 @@ administrator to do it for them. (Some might also expect other sysctl
 parameters to be set, kernel modules to be loaded, etc; consult the
 documentation for your specific network implementation.)
 -->
-默认情况下，Linux 内核不允许 IPv4 数据包在接口之间路由。
+默认情况下，Linux 内核不允许 IPv4 数据包在跨接口的情况下路由。
 大多数 Kubernetes 集群网络实现都会更改此设置（如果需要），但有些人可能希望管理员为他们执行此操作。
 （有些人可能还期望设置其他 sysctl 参数、加载内核模块等；请参阅你的特定网络实施的文档。）
 
